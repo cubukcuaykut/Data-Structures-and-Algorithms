@@ -22,6 +22,6 @@ int main()
     int n = sizeof(arr) / sizeof(int);
     int key = 1;
 
-    cout << linearSearch(arr, n, key) << endl;
+    cout << "result: "<< linearSearch(arr, n, key) << endl;
     return 0;
 }
